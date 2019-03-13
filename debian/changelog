@@ -1,3 +1,9 @@
+flowmastermind (1.29) trusty; urgency=medium
+
+  * Show info about future_backends
+
+ -- Evgenii Kortukov <eekortukov@eekortukov-trusty.mdst.yandex.net>  Wed, 13 Mar 2019 13:31:53 +0300
+
 flowmastermind (1.28) xenial; urgency=medium
 
   * Add fix eblobs jobs

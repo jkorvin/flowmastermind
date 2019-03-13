@@ -396,6 +396,7 @@ UnusedSpacePie.prototype.color = d3.scale.ordinal()
         'reserved_lrc_space',
         'unused_locked_space',
         'bad_unused_space',
+        'future_backends_space',
     ]).range([
         'rgb(229, 214, 137)',
         'rgb(211, 219, 199)',
@@ -403,6 +404,7 @@ UnusedSpacePie.prototype.color = d3.scale.ordinal()
         'rgb(139, 213, 232)',
         'rgb(184, 121, 209)',
         'rgb(240,72,72)',
+        'rgb(68, 136, 255)',
     ]);
 
 UnusedSpacePie.prototype.labels = {
@@ -412,6 +414,7 @@ UnusedSpacePie.prototype.labels = {
     reserved_lrc_space: 'зарезервированные для lrc',
     unused_locked_space: 'заблокированные',
     bad_unused_space: 'недоступные',
+    future_backends_space: 'удалённые бэкенды',
 };
 
 UnusedSpacePie.prototype.labelLength = 160;

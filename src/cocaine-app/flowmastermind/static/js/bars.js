@@ -548,6 +548,7 @@ UnusedMemoryBar.prototype.color = d3.scale.ordinal()
         'reserved_lrc_space',
         'unused_locked_space',
         'bad_unused_space',
+        'future_backends_space',
     ]).range([
         'rgb(229, 214, 137)',
         'rgb(211, 219, 199)',
@@ -555,6 +556,7 @@ UnusedMemoryBar.prototype.color = d3.scale.ordinal()
         'rgb(139, 213, 232)',
         'rgb(184, 121, 209)',
         'rgb(240,72,72)',
+        'rgb(68, 136, 255)',
     ]);
 
 UnusedMemoryBar.prototype.labels = {
@@ -564,6 +566,7 @@ UnusedMemoryBar.prototype.labels = {
     reserved_lrc_space: 'зарезервированное для lrc',
     unused_locked_space: 'заблокированное',
     bad_unused_space: 'недоступное',
+    future_backends_space: 'удалённые бэкенды',
 };
 
 UnusedMemoryBar.prototype.margin = {top: 50, right: 10, left: 50, bottom: 40};
